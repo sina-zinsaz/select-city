@@ -1,0 +1,118 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, sans-serif;
+    }
+
+    body {
+        background: linear-gradient(135deg, #f3f4f6, #e5e7eb);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        padding: 20px;
+    }
+
+    .container {
+        background: white;
+        border-radius: 10px;
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+        padding: 30px;
+        max-width: 500px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .container h1 {
+        font-size: 1.8rem;
+        color: #000000;
+        margin-bottom: 10px;
+    }
+
+    .container p {
+        font-size: 1rem;
+        color: #36393b;
+        margin-bottom: 20px;
+    }
+
+    .search-box {
+        position: relative;
+        margin-bottom: 20px;
+    }
+
+    .search-box input {
+        width: 100%;
+        padding: 10px 15px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 1rem;
+        outline: none;
+        padding-right: 35px;
+    }
+
+    .search-box input:focus {
+        border-color: #007bff;
+        box-shadow: 0 0 8px rgba(99, 102, 241, 0.4);
+    }
+
+    .search-box button {
+        position: absolute;
+        right: 10px;
+        top: 50%;
+        transform: translateY(-50%);
+        background: none;
+        border: none;
+        cursor: pointer;
+    }
+
+    .search-box button img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .select-box {
+        margin-bottom: 20px;
+    }
+
+    .select-box select {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 1rem;
+        outline: none;
+    }
+
+    .select-box select:focus {
+        border-color: #007bff;
+        box-shadow: 0 0 8px rgba(99, 102, 241, 0.4);
+    }
+
+    .btn {
+        display: inline-block;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        font-size: 1rem;
+        cursor: pointer;
+        transition: background-color 0.3s;
+        background: linear-gradient(45deg, #6366F1, #A78BFA);
+        transition: all 0.3s ease;
+    }
+
+    .btn:hover {
+        background: linear-gradient(45deg, #4338CA, #7C3AED);
+        box-shadow: 0 4px 10px rgba(67, 56, 202, 0.3);
+    }
+
+    @media (max-width: 576px) {
+        .container {
+            padding: 20px;
+        }
+
+        .container h1 {
+            font-size: 1.5rem;
+        }
+    }
