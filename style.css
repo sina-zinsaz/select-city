@@ -26,6 +26,13 @@
         width: 100%;
     }
 
+    .container img {
+        width: 10rem;
+        height: 10rem;
+        border-radius: 10px;
+        margin-bottom: 20px;
+    }
+
     .container h1 {
         font-size: 1.8rem;
         color: #000000;
@@ -61,7 +68,7 @@
     .search-box button {
         position: absolute;
         right: 10px;
-        top: 50%;
+        top: 80%;
         transform: translateY(-50%);
         background: none;
         border: none;
